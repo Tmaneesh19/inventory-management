@@ -93,7 +93,7 @@ const Sidebar = () => {
             isSidebarCollapsed ? "hidden" : "block"
           } font-extrabold text-2xl`}
         >
-          EDSTOCK
+          MK_STOCK
         </h1>
 
         <button
@@ -142,11 +142,6 @@ const Sidebar = () => {
           label="Expenses"
           isCollapsed={isSidebarCollapsed}
         />
-      </div>
-
-      {/* FOOTER */}
-      <div className={`${isSidebarCollapsed ? "hidden" : "block"} mb-10`}>
-        <p className="text-center text-xs text-gray-500">&copy; 2024 Edstock</p>
       </div>
     </div>
   );
